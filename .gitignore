@@ -1,0 +1,16 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.Python
+checkpoints/*.pt
+results/
+*.egg-info/
+dist/
+build/
+.DS_Store
+data/raw_roboflow/
+data/splits.json
+cataract_detection_app/build
+cataract_detection_app/build 2
