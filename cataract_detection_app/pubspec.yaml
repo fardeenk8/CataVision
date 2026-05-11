@@ -1,0 +1,29 @@
+name: cataract_detection_app
+description: Cataract detection (naked-eye) - upload eye photo, get prediction and Grad-CAM.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.1.0
+  image_picker: ^1.0.4
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.14.1
+
+flutter:
+  uses-material-design: true
+
+flutter_icons:
+  ios: true
+  android: false
+  image_path_ios: "assets/icon/cata_vision.png"
+  remove_alpha_ios: true
